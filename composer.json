@@ -15,5 +15,13 @@
         "psr-4": {
             "Adexos\\FixCustomerCivility\\": ""
         }
+    },
+    "extra": {
+        "composer-exit-on-patch-failure": true,
+        "patches": {
+            "magento/module-customer": {
+                "Fix civility following the magento version upgrade to 2.4.2": "patches/composer/M242/fix-civility.patch"
+            }
+        }
     }
 }
