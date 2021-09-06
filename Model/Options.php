@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Adexos\Customweb\Model;
+namespace Adexos\FixCustomerCivility\Model;
 
 class Options extends \Magento\Customer\Model\Options
 {
